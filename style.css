@@ -1,0 +1,320 @@
+/*GENERAL*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+h1
+{
+	text-transform: uppercase;
+	font-family: cursive;
+	color: #444;
+}
+h3
+{
+	text-align: center;
+}
+body
+{
+	font-family: cursive;
+	font-size: 15px;
+	background-color: #cfdfc4;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.clear
+{
+	clear:both;
+}
+a
+{
+	color: #222;
+}
+/*HEADER*/
+{
+
+}
+header
+{
+	height: 60px;
+	padding-top: 20px;
+}
+header h1
+{
+	float: left;
+	margin-top: 18px;
+}
+header nav
+{
+	float: right;
+	margin-top: 30px;
+
+
+}
+header nav ul li
+{
+    float:left;
+    display: inline-block;
+    width: 110px;
+}
+header nav ul li a
+{
+	text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+/*description*/
+#description
+{
+	height: 580px;
+	background:url("images/tonkpi_large.jpg") center no-repeat;
+	margin-top: 30px;
+}
+#description div
+{
+	width: 900px;
+}
+#description div p
+{
+	font-weight: normal;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 0; 
+}
+#description h3
+{
+	text-decoration: underline;
+	font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px 0 10px 0;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+#description p
+{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	color:black
+}
+/*culture*/
+#culture
+{
+	margin-top: 30px;
+}
+#culture p
+{
+	font-size: 20px;
+}
+#culture h3
+{
+	padding-top: 15px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+#culture ul 
+{
+	margin: 80px 0;
+}
+#culture ul li
+{
+	list-style: none;
+	margin-top: 20px;
+	float: left;
+	width: 300px;
+	height: 250px;
+	text-align: center;
+	padding-top:10px; 
+}
+#culture-1
+{
+	background: url("images/masque1.jpg") no-repeat top center;
+}
+#culture-2
+{
+	background: url("images/masque2.jpg") no-repeat top center;
+}
+#culture-3
+{
+	background: url("images/masque3.jpg") no-repeat top center;
+}
+
+/*visits*/
+#visits
+{
+	margin: 50px 0;
+}
+#visits h3
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#visits ul li
+{
+	list-style: none;
+	width: 150px;
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+	padding-bottom: 50px;
+	 padding-top: 170px;
+}
+#visit-1
+{
+	background: url('images/cascades-1.jpg') no-repeat top center;
+	border:2px solid gray ;
+}
+#visit-2
+{
+	background: url('images/tonkpi 2.jpg') no-repeat top center;
+	border:2px solid gray ; 
+}
+#visit-3
+{
+	background: url('images/dent-de-man.jpg') no-repeat top center;
+	border:2px solid gray ;
+}
+#visit-4
+{
+	background: url('images/foret-sacrée.jpg') no-repeat top center;
+	border:2px solid gray ;
+	height: 100px;
+}
+#visit-5
+{
+	background: url('images/pontliane large2.jpg') no-repeat top center;
+	border:2px solid gray ;
+	height: 100px;
+}
+/*liens_utile*/
+#liens_utile
+{
+	background-color:#cfdfc4;
+	height: 150px;
+	margin-top: 300px;
+	padding:  60px 0;
+}
+#liens_utile article
+{
+	width: 460px;
+    height: 270px;
+    float: left;
+}
+#liens_utile p
+{
+	font-style: italic;
+}
+.overlay
+{
+	background:rgba(255,255,255,0.5);
+	height: 70%;
+	width: 130px;
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 0 10px 10px 0;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+.button-1
+{
+	color: #fff;
+    background-color: #ff7a00;
+    padding: 2px 7px;
+    border-radius: 3px;
+}
+.button-2
+{
+	color: #fff;
+    background-color: #ff7a00;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+/* histoire*/
+#histoire
+{
+	float: center;
+	font-size: 15px;
+
+}
+#histoire h3
+{
+	font-size: 25px;
+}
+#histoire p
+{
+	font-size: 20px;
+	text-align: center;
+}
+/*contacts*/
+#contacts
+{
+ 	padding: 30px 0;
+    text-align: center
+}
+#contacts p
+{
+	font-size: 25px;
+}
+#contacts h3
+{
+    width: 200px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom:  1px solid #0B53BF;
+    padding-bottom: 10px;   
+}
+form
+{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+input[type="text"]
+{
+    padding:10px;
+    font-size: 15px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-3
+{
+	font-size: 15px;
+	padding: 10px;
+    background-color: #0B53BF;
+    border-radius: 10px / 5px;
+}
+.button-3:hover
+{
+	color: #fff;
+	background-color: #444;
+}
+
+/*footer*/
+footer
+{
+    height: 200px;
+    background-color: #c2c365;
+}
+footer h2
+{
+	font-size: 35px;
+	text-transform: uppercase;
+    text-align: center;
+    padding-top: 80px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
